@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f4"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/Udacity_image"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:src="@drawable/udacity" />
+
+    <TextView
+        android:id="@+id/Udacity_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Udacity"
+        android:textColor="#02B3E4"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/Phone_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:text="650-555-5555"
+        android:textColor="#02B3E4"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Website_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:autoLink="web"
+        android:padding="8dp"
+        android:text="@string/udacity_web"
+        android:textColor="#02B3E4"
+        android:textColorLink="#02B3E4"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Address_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:text="2465 Latham St, Mountain View, CA 94043"
+        android:textColor="#02B3E4"
+        android:textSize="24sp" />
+
+</LinearLayout>
