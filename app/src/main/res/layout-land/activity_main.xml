@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/Udacity_image"
-        android:layout_width="291dp"
+        android:layout_width="@dimen/land_width"
         android:layout_height="match_parent"
         android:src="@drawable/udacity" />
 
@@ -16,55 +16,55 @@
         android:id="@+id/Udacity_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginLeft="@dimen/layoutmarginleft1"
+        android:layout_marginTop="@dimen/layoutmargintop1"
         android:layout_toRightOf="@id/Udacity_image"
         android:autoLink="web"
-        android:padding="10dp"
+        android:padding="@dimen/padding1"
         android:text="@string/udacity"
         android:textColor="@color/udacity_color"
-        android:textSize="26sp" />
+        android:textSize="@dimen/textsize3" />
 
     <TextView
         android:id="@+id/Phone_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Udacity_textView"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="@dimen/layoutmarginleft1"
         android:layout_toRightOf="@id/Udacity_image"
         android:autoLink="phone"
-        android:padding="8dp"
+        android:padding="@dimen/padding1"
         android:text="@string/phone"
         android:textColor="@color/udacity_color"
         android:textColorLink="@color/udacity_color"
-        android:textSize="24sp" />
+        android:textSize="@dimen/textsize2" />
 
     <TextView
         android:id="@+id/Website_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Phone_textView"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="@dimen/layoutmarginleft1"
         android:autoLink="web"
         android:layout_toRightOf="@id/Udacity_image"
-        android:padding="8dp"
+        android:padding="@dimen/padding1"
         android:text="@string/udacity_web"
         android:textColor="@color/udacity_color"
         android:textColorLink="@color/udacity_color"
-        android:textSize="24sp" />
+        android:textSize="@dimen/textsize2" />
 
     <TextView
         android:id="@+id/Address_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Website_textView"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="@dimen/layoutmarginleft1"
         android:layout_toRightOf="@id/Udacity_image"
         android:autoLink="map"
-        android:padding="8dp"
+        android:padding="@dimen/padding1"
         android:text="@string/address"
         android:textColor="@color/udacity_color"
         android:textColorLink="@color/udacity_color"
-        android:textSize="24sp" />
+        android:textSize="@dimen/textsize2" />
 
 </RelativeLayout>
